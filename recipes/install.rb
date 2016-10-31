@@ -58,7 +58,7 @@ cf_pkgs.each do |pkg|
 end unless platform_family?('windows')
 
 # Windows
-include_recipe "ms-cpp-redistributable::2008_x86" if platform_family?('windows')
+#include_recipe "ms-cpp-redistributable::2008_x86" if platform_family?('windows')
 
 
 # Setup runtime user
